@@ -1,4 +1,4 @@
-# Vista Systech Task - Backend Application
+# E-Commerce Inventory API - Backend Application
 
 ## Overview
 Vista Systech Task is a backend application designed to manage promotions, catalogs, shopping carts, and orders. This project is built using Node.js, Express, and MongoDB. It provides a set of RESTful API endpoints to handle operations related to product promotions, catalogs, cart management, and order processing.
@@ -13,8 +13,7 @@ Vista Systech Task is a backend application designed to manage promotions, catal
 ## Tech Stack
 - **Node.js** - Backend runtime environment
 - **Express.js** - Web framework for building RESTful APIs
-- **MongoDB** - NoSQL database for data storage
-- **Mongoose** - Object Data Modeling (ODM) library for MongoDB
+ 
 - **JWT** - JSON Web Tokens for authentication
 - **Bcrypt** - Password hashing library
 - **Swagger** - API documentation and testing
@@ -35,7 +34,7 @@ Step 2: Install Dependencies
 
 Navigate to the project folder and install the necessary dependencies:
 
-cd vista-systech-task
+cd E-Commerce Inventory API
 npm install
 
 Step 3: Set Up Environment Variables
@@ -51,7 +50,7 @@ Example .env:
 ## Application Environment
 NODE_ENV=development
 SOCKET=8082
-MONGODB_URL=mongodb://localhost:27017/Vista_systech_task_DB
+MONGODB_URL=mongodb://localhost:27017/ 
 PORT=8080
 # BACKEND_IP=10.10.11.65
 LOCAL_SERVER=sayed.sakibahmad.com
