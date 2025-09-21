@@ -37,7 +37,7 @@ app.get('/test', (req: Request, res: Response) => {
 });
 
 // Routes (before Swagger to prevent potential conflicts)
-app.use('/api/v1', router);
+ 
 
 // Set up Swagger UI at /api-docs route
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
